@@ -1,0 +1,57 @@
+.header {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+  
+.header-title {
+    display: inline-block;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-description {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.image-and-update-button-set {
+  margin-right: 10%;
+}
+
+.update-button {
+  background-color: #ADD8E6; /* Light blue color */
+  color: #ffffff; /* White text color */
+  padding: 10px 20px; /* Padding for better appearance */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show cursor as pointer on hover */
+}
+
+.update-button:hover {
+  background-color: #87CEEB; /* Darker blue color on hover */
+}
+
+.dog-select-box {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100px; /* 画像の幅を適切に指定 */
+  height: 100px; /* 画像の高さを適切に指定 */
+  margin: 5px; /* 画像の間隔を調整 */
+}
